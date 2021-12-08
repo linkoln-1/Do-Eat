@@ -1,0 +1,155 @@
+{
+  "cafe": [
+    {
+      "id": 1,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/05/51/b1/36/caption.jpg",
+      "title": "Эсперанто",
+      "address": "Грозный, ул. Шейха Али Митаева, д. 47 ТЦ Раяна, супермаркет Мигрос"
+    },
+    {
+      "id": 2,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/16/f4/f3/2e/photo1jpg.jpg",
+      "title": "Ресторан Купол",
+      "address": "Грозный, пр. Кадырова, 1/16 Гостиница \"Грозный\""
+    },
+    {
+      "id": 3,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/bf/66/01/photo8jpg.jpg",
+      "title": "Steakhouse",
+      "address": "Грозный, пр-т А. А. Кадырова, ТЦ \"Гранд парк\", 1 этаж"
+    },
+    {
+      "id": 4,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/2b/55/42/caption.jpg",
+      "title": "Drinks",
+      "address": "Грозный, ул. Кабардинская, 4"
+    },
+    {
+      "id": 5,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/17/55/a1/stuffed-fresh-cheese.jpg",
+      "title": "Patio",
+      "address": "Грозный, ул. Полярников, 49"
+    },
+    {
+      "id": 6,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
+      "title": "Vincenzo",
+      "address": "Грозный, пр. Ахмата Кадырова, 40 Grand Park Mall"
+    }
+  ],
+  "bigImages": [
+    {
+      "id": 1,
+      "cafeId": 1,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/05/51/b1/36/caption.jpg",
+      "title": "Esperanto"
+    },
+    {
+      "id": 2,
+      "cafeId": 2,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/16/f4/f3/2e/photo1jpg.jpg",
+      "title": "Restaurant-Kupol"
+    },
+    {
+      "id": 3,
+      "cafeId": 3,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/bf/66/01/photo8jpg.jpg",
+      "title": "SteakHouse"
+    },
+    {
+      "id": 4,
+      "cafeId": 4,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/2b/55/42/caption.jpg",
+      "title": "Drinks",
+      "mini-address": ""
+    },
+    {
+      "id": 5,
+      "cafeId": 5,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/17/55/a1/stuffed-fresh-cheese.jpg",
+      "title": "Patio"
+    },
+    {
+      "id": 6,
+      "cafeId": 6,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
+      "title": "Vencenzo"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "cafeId": 1,
+      "location": "Грозный, ул. Шейха Али Митаева, д. 47 ТЦ Раяна, супермаркет Мигрос"
+    },
+    {
+      "id": 2,
+      "cafeId": 2,
+      "location": "Грозный, пр. Кадырова, 1/16 Гостиница \"Грозный\""
+    },
+    {
+      "id": 3,
+      "cafeId": 3,
+      "location": "Грозный, пр-т А. А. Кадырова, ТЦ \"Гранд парк\", 1 этаж"
+    },
+    {
+      "id": 4,
+      "cafeId": 4,
+      "location": "Грозный, ул. Кабардинская, 4"
+    },
+    {
+      "id": 5,
+      "cafeId": 5,
+      "location": "Грозный, ул. Полярников, 49"
+    },
+    {
+      "id": 6,
+      "cafeId": 6,
+      "location": "Грозный, пр. Ахмата Кадырова, 40 Grand Park Mall"
+    }
+  ],
+  "ContactInfo": [
+    {
+      "id": 1,
+      "cafeId": 1,
+      "LockAddresses": "Грозный, ул. Шейха Али Митаева, д. 47",
+      "WorkingHours": " 11-00 до 00-00",
+      "phone": "+7 929 198 27 82"
+    },
+    {
+      "id": 2,
+      "cafeId": 2,
+      "LockAddresses": "Грозный, пр. Кадырова,  1/16",
+      "WorkingHours": " 8-00 до 01-00",
+      "phone": "+7 928 784 47 52"
+    },
+    {
+      "id": 3,
+      "cafeId": 3,
+      "LockAddresses": "Грозный, пр-т А. А. Кадырова, ТЦ \"Гранд парк\", 1 этаж",
+      "WorkingHours": " 8-00 до 00-00",
+      "phone": "+7 989 351 22 19"
+    },
+    {
+      "id": 4,
+      "cafeId": 4,
+      "LockAddresses": "Грозный, ул. Кабардинская, 4",
+      "WorkingHours": " 8-30 до 22-00",
+      "phone": "+7 963 567 82 71"
+    },
+    {
+      "id": 5,
+      "cafeId": 5,
+      "LockAddresses": "Грозный, ул. Полярников, 49",
+      "WorkingHours": " 10-00 до 22-00",
+      "phone": "+7 929 784 50 90"
+    },
+    {
+      "id": 6,
+      "cafeId": 6,
+      "LockAddresses": "Грозный, пр. Ахмата Кадырова, 40",
+      "WorkingHours": " 9-00 до 20-00",
+      "phone": "+7 928 894 90 90"
+    }
+  ]
+}
