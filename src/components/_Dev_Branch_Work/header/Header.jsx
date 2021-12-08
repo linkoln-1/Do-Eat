@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "./header.module.scss"
-import logo from "../../img/logo.png"
-import basket from "../../img/image1.png"
-import profile from "../../img/profile.png"
+import logo from "../../../img/logo.png"
+import basket from "../../../img/image1.png"
+import profile from "../../../img/profile.png"
 function Header() {
     return (
         <div className={styles.header}>

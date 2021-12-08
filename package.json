@@ -18,11 +18,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --write ./src",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "scss": "node-sass -watch scss -o css"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }

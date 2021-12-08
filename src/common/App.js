@@ -1,8 +1,14 @@
-import Content from "./Content";
+import DetailedInformation from "../components/Dev_linkoln_Work/index";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+
 function App() {
   return (
-    <div className="App">
-      <Content />
+    <div>
+     <Routes>
+      <Route path="/" element={ <HomePage /> } />
+      <Route path="/DetailedInformation" element={ <DetailedInformation /> } />
+     </Routes>
     </div>
   );
 }
