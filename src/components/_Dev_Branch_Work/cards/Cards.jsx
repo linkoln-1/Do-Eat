@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./cards.module.scss";
 import restaurant from "../../../img/restaurant.png";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Cards() {
   return (
@@ -14,12 +14,10 @@ function Cards() {
           <div>
             <div className={styles["card-name"]}>шашлык у тимура</div>
             <div className={styles["card-desc"]}>
-              лучший шашлык в Грозном,работаем с 9:00 до 22:00,
-              у нас лучшие цены и качество обслуживания
+              лучший шашлык в Грозном,работаем с 9:00 до 22:00, у нас лучшие
+              цены и качество обслуживания
             </div>
-            <div className={styles["card-rating"]}>
-              1
-            </div>
+            <div className={styles["card-rating"]}>1</div>
           </div>
         </div>
       </NavLink>
@@ -31,12 +29,10 @@ function Cards() {
         <div>
           <div className={styles["card-name"]}>шашлык у тимура</div>
           <div className={styles["card-desc"]}>
-            лучший шашлык в Грозном,работаем с 9:00 до 22:00,
-            у нас лучшие цены и качество обслуживания
+            лучший шашлык в Грозном,работаем с 9:00 до 22:00, у нас лучшие цены
+            и качество обслуживания
           </div>
-          <div className={styles["card-rating"]}>
-            1
-        </div>
+          <div className={styles["card-rating"]}>1</div>
         </div>
       </div>
       <div className={styles.card}>
@@ -46,12 +42,10 @@ function Cards() {
         <div>
           <div className={styles["card-name"]}>шашлык у тимура</div>
           <div className={styles["card-desc"]}>
-            лучший шашлык в Грозном,работаем с 9:00 до 22:00,
-            у нас лучшие цены и качество обслуживания
+            лучший шашлык в Грозном,работаем с 9:00 до 22:00, у нас лучшие цены
+            и качество обслуживания
           </div>
-          <div className={styles["card-rating"]}>
-            1
-        </div>
+          <div className={styles["card-rating"]}>1</div>
         </div>
       </div>
     </div>

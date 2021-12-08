@@ -5,10 +5,10 @@ import HomePage from "./HomePage";
 function App() {
   return (
     <div>
-     <Routes>
-      <Route path="/" element={ <HomePage /> } />
-      <Route path="/DetailedInformation" element={ <DetailedInformation /> } />
-     </Routes>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/DetailedInformation" element={<DetailedInformation />} />
+      </Routes>
     </div>
   );
 }

@@ -9,7 +9,7 @@ function ImageBlock(props) {
         alt="restaurant"
       />
       <div>
-       <h1>Ресторан Купол</h1>
+        <h1>Ресторан Купол</h1>
       </div>
     </div>
   );
