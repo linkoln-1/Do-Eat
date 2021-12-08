@@ -1,0 +1,23 @@
+$bck: #3a3a3a;
+
+.header {
+  max-width: 100%;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+  background-color: $bck;
+  align-items: center;
+  img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  .options {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

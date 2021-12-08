@@ -1,8 +1,8 @@
-
+import Content from "./Content";
 function App() {
   return (
     <div className="App">
-      hello world!
+      <Content />
     </div>
   );
 }
