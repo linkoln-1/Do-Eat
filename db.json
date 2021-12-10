@@ -161,13 +161,13 @@
       "id": 10
     },
     {
-      "cafeId": 5,
-      "rating": 3,
+      "cafeId": 2,
+      "rating": 4,
       "id": 11
     },
     {
-      "cafeId": 6,
-      "rating": 4,
+      "cafeId": 2,
+      "rating": 3,
       "id": 12
     },
     {
@@ -176,24 +176,54 @@
       "id": 13
     },
     {
-      "cafeId": 1,
-      "rating": 2,
+      "cafeId": 5,
+      "rating": 3,
       "id": 14
     },
     {
-      "cafeId": 1,
-      "rating": 1,
+      "cafeId": 6,
+      "rating": 4,
       "id": 15
     },
     {
       "cafeId": 1,
-      "rating": 5,
+      "rating": 4,
       "id": 16
     },
     {
       "cafeId": 1,
-      "rating": 5,
+      "rating": 4,
       "id": 17
+    },
+    {
+      "cafeId": 3,
+      "rating": 4,
+      "id": 18
+    },
+    {
+      "cafeId": 3,
+      "rating": 5,
+      "id": 19
+    },
+    {
+      "cafeId": 1,
+      "rating": 3,
+      "id": 20
+    },
+    {
+      "cafeId": 1,
+      "rating": 2,
+      "id": 21
+    },
+    {
+      "cafeId": 2,
+      "rating": 3,
+      "id": 22
+    },
+    {
+      "cafeId": 2,
+      "rating": 4,
+      "id": 23
     }
   ],
   "ContactInfo": [
