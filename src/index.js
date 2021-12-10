@@ -4,7 +4,6 @@ import App from "./common/App";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/config";
-import "./starStyle.scss";
 ReactDOM.render(
     <BrowserRouter>
       <Provider store={store}>
