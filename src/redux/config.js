@@ -2,7 +2,9 @@ import { applyMiddleware, combineReducers, createStore } from "redux";
 import { createLogger } from "redux-logger/src";
 import thunk from "redux-thunk";
 import restaurant from "./RestaurantReducer/RestaurantReducer";
-import rating from "./RestaurantReducer/ratingReducer"
+import rating from "./RatingReducer/ratingReducer";
+import addressess from "./AddressReducer/AddressReducer";
+import { ImageRestaurant } from "./ImageRestaurant/ImageRestaurant";
 
 const logger = createLogger({
   diff: true,
@@ -11,7 +13,9 @@ const logger = createLogger({
 
 const rootReduce = combineReducers({
   restaurants: restaurant,
-  rating: rating
+  rating: rating,
+  addresses: addressess,
+  ImageRestaurants: ImageRestaurant,
 });
 
 const store = createStore(rootReduce, applyMiddleware(thunk, logger));

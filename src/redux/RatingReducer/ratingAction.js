@@ -14,25 +14,25 @@ export const loadRating = () => {
   };
 };
 
-export const ratings = (id, rating) => {
+export const ToPutRatinges = (id, rating) => {
   return (dispatch) => {
     dispatch({
-      type: 'rating/send/start',
+      type: "rating/send/start",
     });
     fetch(`${proxys}/Rating`, {
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify({
         cafeId: id,
         rating: rating,
       }),
       headers: {
-        'Content-type': 'application/json',
+        "Content-type": "application/json",
       },
     })
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: 'rating/send/success',
+          type: "rating/send/success",
           payload: json,
         });
       });
