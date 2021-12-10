@@ -1,22 +1,17 @@
 import DetailedInformation from "../components/DetailedInformationsPageComponents/index";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
-import { useDispatch } from "react-redux";
-import { useEffect } from "react";
-import { loadRating } from "../redux/RestaurantReducer/ratingAction";
+import Header from "../components/HomePageComponents/header/Header";
+import React from "react";
 
 function App() {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(loadRating())
-  },[dispatch]);
   return (
     <div>
+      <Header />
       {/*Здесь будут все роутинг маршрутизаторы*/}
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/DetailedInformation" element={<DetailedInformation />} />
+        <Route path="/:id" element={<DetailedInformation />} />
       </Routes>
     </div>
   );

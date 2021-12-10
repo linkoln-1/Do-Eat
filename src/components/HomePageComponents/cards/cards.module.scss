@@ -38,10 +38,18 @@
       margin: 50px 0 0 0;
     }
     .card-rating {
-
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      & div {
+        margin-left: 10px;
+      }
+      & div p {
+        color: white;
+      }
+      .Star {
+        color: #fdc634;
+      }
     }
-  }
-  .rating {
-    color: red;
   }
 }

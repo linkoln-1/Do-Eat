@@ -3,7 +3,7 @@ import styles from "./cards.module.scss";
 import { NavLink } from "react-router-dom";
 import Rating from "react-rating";
 import { useSelector, useDispatch } from "react-redux";
-import { ratings } from "../../../redux/RestaurantReducer/ratingAction";
+import { ToPutRatinges } from "../../../redux/RatingReducer/ratingAction";
 function Cards({ restaurant }) {
   const dispatch = useDispatch();
   const rating = useSelector((state) => {
@@ -16,33 +16,32 @@ function Cards({ restaurant }) {
       }, 0) / items.length
     );
   });
-  const id = restaurant.id
+  const id = restaurant.id;
   const one = rating.toFixed(1);
   const Click = (rating) => {
-    dispatch(ratings(id, rating));
+    dispatch(ToPutRatinges(id, rating));
   };
-  console.log(rating);
   return (
     <div className={styles.cards}>
       <div className={styles.card}>
         <img src={restaurant.url} alt="" />
         <div className={styles["div"]}>
-          <NavLink
-            to="/DetailedInformation"
-            className={styles["NavLink-Style"]}
-          >
+          <NavLink to={`/${restaurant.id}`} className={styles["NavLink-Style"]}>
             <div className={styles["card-name"]}>{restaurant.title}</div>
           </NavLink>
           <div className={styles["card-address"]}>{restaurant.address}</div>
           <div className={styles["falsch"]} />
           <div className={styles["card-rating"]}>
             <Rating
+              className={styles["Star"]}
               initialRating={one}
               onClick={Click}
-              emptySymbol={"fa fa-star rating"}
+              emptySymbol={"fa fa-star star_gray"}
               fullSymbol={"fa fa-star"}
             />
-            {one}
+            <div>
+              <p>{one}</p>
+            </div>
           </div>
         </div>
       </div>

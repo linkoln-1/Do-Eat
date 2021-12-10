@@ -1,15 +1,12 @@
 import React from "react";
 import "../scss/ImageBlock.scss";
 
-function ImageBlock(props) {
+function ImageBlock({ image }) {
   return (
     <div className="image__block">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_Näsinneula.jpg/1200px-Restaurant_Näsinneula.jpg"
-        alt="restaurant"
-      />
+      <img src={image.url} alt="restaurant" />
       <div>
-        <h1>Ресторан Купол</h1>
+        <h1>{image.title}</h1>
       </div>
     </div>
   );

@@ -1,39 +1,35 @@
 const initialState = {
-  restaurant: [],
+  rating: [],
   loading: false,
 };
 
-export const restaurant = (state = initialState, action) => {
+export const ratingReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "cafe/load/start":
+    case "rating/load/start":
       return {
         ...state,
         loading: true,
       };
-
-    case "cafe/load/success":
+    case "rating/load/success":
       return {
         ...state,
-        restaurant: action.payload,
         loading: false,
+        rating: action.payload,
       };
-
-    case "postCafe/send/start":
+    case "rating/send/start":
       return {
         ...state,
         loading: true,
       };
-
-    case "postCafe/send/success":
+    case "rating/send/success":
       return {
         ...state,
-        restaurant: action.payload,
+        rating: [...state.rating, action.payload],
         loading: false,
       };
-
     default:
       return state;
   }
 };
 
-export default restaurant;
+export default ratingReducer;

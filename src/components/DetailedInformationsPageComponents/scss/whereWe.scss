@@ -1,10 +1,39 @@
+@import "variables";
 .where__we {
-  font-family: "Roboto", sans-serif;
-  width: 300px;
+  width: 85%;
   margin: 20px 0 0 10px;
   font-size: 18px;
-  border-left: solid 5px grey;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 20px;
-  color: grey;
+
+  .ClockMap {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .addresses {
+    margin-bottom: 10px;
+  }
+  .addresses {
+    display: flex;
+    align-items: center;
+    color: $color;
+  }
+  .addresses span {
+    margin-left: 5px;
+  }
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    & div {
+      margin-left: 10px;
+    }
+    & div p {
+      color: $color;
+    }
+    .Star {
+      color: $color-for-star;
+    }
+  }
 }
