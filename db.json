@@ -223,6 +223,16 @@
       "cafeId": 2,
       "rating": 4,
       "id": 23
+    },
+    {
+      "cafeId": 1,
+      "rating": 1,
+      "id": 24
+    },
+    {
+      "cafeId": 1,
+      "rating": 4,
+      "id": 25
     }
   ],
   "ContactInfo": [

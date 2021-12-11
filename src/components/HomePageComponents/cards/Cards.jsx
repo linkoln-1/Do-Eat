@@ -7,16 +7,12 @@ function Cards({ restaurant }) {
       <div className={styles.card}>
         <img src={restaurant.url} alt="" />
         <div className={styles["div"]}>
-          <NavLink
-            to="/DetailedInformation"
-            className={styles["NavLink-Style"]}
-          >
+          <NavLink to={`/${restaurant.id}`} className={styles["NavLink-Style"]}>
             <div className={styles["card-name"]}>{restaurant.title}</div>
           </NavLink>
           <div className={styles["card-address"]}>{restaurant.address}</div>
           <div className={styles["falsch"]} />
-          <div className={styles["card-rating"]}>
-          </div>
+          <div className={styles["card-rating"]}></div>
         </div>
       </div>
     </div>
