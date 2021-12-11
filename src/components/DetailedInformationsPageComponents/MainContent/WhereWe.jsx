@@ -26,7 +26,7 @@ function WhereWe({ address, id }) {
     <div className="where__we">
       <div className="ClockMap">
         <div className="addresses">
-          <img src="" alt="" />
+          <i className="fa fa-location-arrow" aria-hidden="true"/>
           <span>{address.location}</span>
         </div>
 

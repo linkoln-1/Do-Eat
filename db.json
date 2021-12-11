@@ -35,6 +35,42 @@
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
       "title": "Vincenzo",
       "address": "Грозный, пр. Ахмата Кадырова, 40 Grand Park Mall"
+    },
+    {
+      "id": 7,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/d0/56/41/photo2jpg.jpg",
+      "title": "Бешеный Лосось Грозный",
+      "address": "Грозный, пр.Путина, 36"
+    },
+    {
+      "id": 8,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-p/12/21/e8/f2/g.jpg",
+      "title": "Жижиг & Galnash",
+      "address": "Грозный, Пр. Путина, 5"
+    },
+    {
+      "id": 9,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/fd/c3/4e/caption.jpg",
+      "title": "Wasabi",
+      "address": "Грозный, пр. Кадырова, 40 ТРК Гранд Парк"
+    },
+    {
+      "id": 10,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/1a/ac/43/caption.jpg",
+      "title": "Бриошь",
+      "address": "Грозный, ул. Шейха Али Митаева, 25"
+    },
+    {
+      "id": 11,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/b5/bc/8f/caption.jpg",
+      "title": "Grill Grozny House",
+      "address": "Грозный, бульвар Эсамбаева, 11"
+    },
+    {
+      "id": 12,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
+      "title": "PARIS",
+      "address": "Грозный, Проспект В.В. Путина На углу Пр-та В.В. Путина и ул. Мира (рядом с домом Моды)"
     }
   ],
   "bigImages": [
@@ -73,7 +109,44 @@
       "cafeId": 6,
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
       "title": "Vencenzo"
+    },
+    {
+      "id": 7,
+      "cafeId": 7,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/d0/56/41/photo2jpg.jpg",
+      "title": "Бешеный Лосось Грозный"
+    },
+    {
+      "id": 8,
+      "cafeId": 8,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-p/12/21/e8/f2/g.jpg",
+      "title": "Жижиг & Galnash"
+    },
+    {
+      "id": 9,
+      "cafeId": 9,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/fd/c3/4e/caption.jpg",
+      "title": "Wasabi"
+    },
+    {
+      "id": 10,
+      "cafeId": 10,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/1a/ac/43/caption.jpg",
+      "title": "Бриошь"
+    },
+    {
+      "id": 11,
+      "cafeId": 11,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/b5/bc/8f/caption.jpg",
+      "title": "Grill Grozny House"
+    },
+    {
+      "id": 12,
+      "cafeId":  12,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
+      "title": "PARIS"
     }
+
   ],
   "addresses": [
     {
