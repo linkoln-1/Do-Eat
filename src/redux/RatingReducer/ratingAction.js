@@ -1,30 +1,29 @@
 import proxys from "../proxy";
-export const LoadRestaurant = () => {
-  return (dispatch) => {
-    dispatch({ type: "cafe/load/start" });
 
-    fetch(`${proxys}/cafe`)
+export const loadRating = () => {
+  return (dispatch) => {
+    dispatch({ type: "rating/load/start" });
+    fetch(`${proxys}/Rating`)
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: "cafe/load/success",
+          type: "rating/load/success",
           payload: json,
         });
       });
   };
 };
 
-export const AddRestaurant = (title, address, photo) => {
+export const ToPutRatinges = (id, rating) => {
   return (dispatch) => {
     dispatch({
-      type: "postCafe/send/start",
+      type: "rating/send/start",
     });
-    fetch(`${proxys}/cafe`, {
+    fetch(`${proxys}/Rating`, {
       method: "POST",
       body: JSON.stringify({
-        title: title,
-        address: address,
-        url: photo,
+        cafeId: id,
+        rating: rating,
       }),
       headers: {
         "Content-type": "application/json",
@@ -33,7 +32,7 @@ export const AddRestaurant = (title, address, photo) => {
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: "postCafe/send/success",
+          type: "rating/send/success",
           payload: json,
         });
       });

@@ -1,20 +1,22 @@
 import React from "react";
 import styles from "./header.module.scss";
 import logo from "../../../img/logo.png";
-import basket from "../../../img/image1.png";
-import profile from "../../../img/profile.png";
+import { NavLink } from "react-router-dom";
+
 function Header() {
   return (
     <div className={styles.header}>
-      <div className={styles.logo}>
-        <img src={logo} alt="" />
-      </div>
+      <NavLink to="/">
+        <div className={styles.logo}>
+          <img src={logo} alt="" />
+        </div>
+      </NavLink>
       <div className={styles.options}>
         <div>
-          <img src={basket} alt="" />
+          <i className="fa fa-shopping-basket" aria-hidden="true" />
         </div>
         <div>
-          <img src={profile} alt="" />
+          <i className="fa fa-user-circle" aria-hidden="true" />
         </div>
       </div>
     </div>
