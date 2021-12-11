@@ -1,13 +1,35 @@
 import React from "react";
 import "../scss/ContactInformationForClient.scss";
 
-function ContactInformationForClient(props) {
+function ContactInformationForClient({ contactInfo }) {
   return (
     <div className="ContactInformationForClient">
-      Данный ресторан работает с 9:00 до 22:00, пятница выходной <hr />
-      <div>номер заведения +7 (963) 397-16-74</div> <hr />
       <div>
-        почта <span>s7600180@gmail.com</span>
+        <div className="contact_info_title">
+          <span>Контактная информация</span>
+        </div>
+        <div className="contact__information">
+          <div className="contact__information__address">
+            <div>Адрес</div>
+            <div>
+              <span>{contactInfo.LockAddresses}</span>
+            </div>
+          </div>
+
+          <div className="contact__information__workHour">
+            <div>Время Работы</div>
+            <div>
+              <span>{contactInfo.WorkingHours}</span>
+            </div>
+          </div>
+
+          <div className="contact__information__ourNumber">
+            <div>Телефон</div>
+            <div>
+              <span>{contactInfo.phone}</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
