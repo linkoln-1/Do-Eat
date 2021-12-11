@@ -1,15 +1,37 @@
 .ContactInformationForClient {
-  width: 600px;
+  width: 290px;
   border-left: 5px solid grey;
   margin-top: 50px;
   padding: 20px;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  color: grey;
+  color: lightgray;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-left: 10px;
-  span {
-    color: lightblue;
-    font-size: 16px;
+
+  .contact_info_title {
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
   }
+  .contact__information {
+    margin-top: 10px;
+  }
+
+  .contact__information__address div,
+  .contact__information__workHour div,
+  .contact__information__ourNumber div, {
+    font-size: 17px;
+    padding: 10px;
+    font-weight: lighter;
+    cursor: text;
+  }
+  .contact__information__address span,
+  .contact__information__workHour span,
+  .contact__information__ourNumber span {
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    cursor: text;
+  }
+
 }

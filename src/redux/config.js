@@ -4,7 +4,8 @@ import thunk from "redux-thunk";
 import restaurant from "./RestaurantReducer/RestaurantReducer";
 import rating from "./RatingReducer/ratingReducer";
 import addressess from "./AddressReducer/AddressReducer";
-import { ImageRestaurant } from "./ImageRestaurant/ImageRestaurant";
+import { ImageRestaurant } from "./ImageRestaurantReducer/ImageRestaurant";
+import ContactInfo from "./ContactInformationReducer/ContactInfoReducer";
 
 const logger = createLogger({
   diff: true,
@@ -16,6 +17,7 @@ const rootReduce = combineReducers({
   rating: rating,
   addresses: addressess,
   ImageRestaurants: ImageRestaurant,
+  ContactInformation: ContactInfo
 });
 
 const store = createStore(rootReduce, applyMiddleware(thunk, logger));
