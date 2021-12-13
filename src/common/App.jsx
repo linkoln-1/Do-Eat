@@ -2,7 +2,7 @@ import DetailedInformation from "../components/DetailedInformationsPageComponent
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import Header from "../components/HomePageComponents/header/Header"
-
+import "./common.pagination.style.scss"
 function App() {
 
   return (

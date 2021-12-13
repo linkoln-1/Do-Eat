@@ -142,11 +142,10 @@
     },
     {
       "id": 12,
-      "cafeId":  12,
+      "cafeId": 12,
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
       "title": "PARIS"
     }
-
   ],
   "addresses": [
     {
@@ -306,6 +305,38 @@
       "cafeId": 1,
       "rating": 4,
       "id": 25
+    },
+    {
+      "cafeId": 1,
+      "rating": 2,
+      "id": 26
+    },
+    {
+      "cafeId": 12,
+      "rating": 4,
+      "id": 27
+    },
+    {
+      "cafeId": 7,
+      "rating": 1,
+      "id": 28
+    },
+    {
+      "rating": 4,
+      "id": 29
+    },
+    {
+      "rating": 2,
+      "id": 30
+    },
+    {
+      "rating": 5,
+      "id": 31
+    },
+    {
+      "cafeId": 11,
+      "rating": 4,
+      "id": 32
     }
   ],
   "ContactInfo": [
