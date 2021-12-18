@@ -40,7 +40,6 @@ function HomePage() {
           color={'primary'}
         />
       </div>
-      <Registration />
       <Footer />
     </div>
   );

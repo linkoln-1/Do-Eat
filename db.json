@@ -337,6 +337,21 @@
       "cafeId": 11,
       "rating": 4,
       "id": 32
+    },
+    {
+      "cafeId": 9,
+      "rating": 4,
+      "id": 33
+    },
+    {
+      "cafeId": 8,
+      "rating": 1,
+      "id": 34
+    },
+    {
+      "cafeId": 10,
+      "rating": 1,
+      "id": 35
     }
   ],
   "ContactInfo": [
