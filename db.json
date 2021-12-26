@@ -68,7 +68,7 @@
     },
     {
       "id": 12,
-      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/ad/36/72/caption.jpg",
       "title": "PARIS",
       "address": "Грозный, Проспект В.В. Путина На углу Пр-та В.В. Путина и ул. Мира (рядом с домом Моды)"
     }
@@ -142,11 +142,10 @@
     },
     {
       "id": 12,
-      "cafeId":  12,
-      "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
+      "cafeId": 12,
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/ad/36/72/caption.jpg",
       "title": "PARIS"
     }
-
   ],
   "addresses": [
     {
@@ -178,6 +177,36 @@
       "id": 6,
       "cafeId": 6,
       "location": "Грозный, пр. Ахмата Кадырова, 40 Grand Park Mall"
+    },
+    {
+      "id": 7,
+      "cafeId": 7,
+      "location": "Грозный, пр.Путина, 36"
+    },
+    {
+      "id": 8,
+      "cafeId": 8,
+      "location": "Грозный, Пр. Путина, 5"
+    },
+    {
+      "id": 9,
+      "cafeId": 9,
+      "location": "Грозный, пр. Кадырова, 40 ТРК Гранд Парк"
+    },
+    {
+      "id": 10,
+      "cafeId": 10,
+      "location": "Грозный, ул. Шейха Али Митаева, 25"
+    },
+    {
+      "id": 11,
+      "cafeId": 11,
+      "location": "Грозный, бульвар Эсамбаева, 11"
+    },
+    {
+      "id": 12,
+      "cafeId": 12,
+      "location": "Грозный, Проспект В.В. Путина На углу Пр-та В.В. Путина и ул. Мира (рядом с домом Моды)"
     }
   ],
   "Rating": [
@@ -189,83 +218,58 @@
     },
     {
       "cafeId": 2,
-      "rating": 5,
+      "rating": 3,
       "id": 2
     },
     {
       "cafeId": 3,
-      "rating": 5,
+      "rating": 4,
       "id": 3
     },
     {
       "cafeId": 4,
-      "rating": 3,
+      "rating": 2,
       "id": 4
     },
     {
-      "cafeId": 1,
-      "rating": 5,
+      "cafeId": 5,
+      "rating": 2,
       "id": 5
     },
     {
-      "cafeId": 1,
-      "rating": 5,
+      "cafeId": 6,
+      "rating": 1,
       "id": 6
     },
     {
-      "cafeId": 2,
-      "rating": 5,
+      "cafeId": 7,
+      "rating": 4,
       "id": 7
     },
     {
-      "cafeId": 2,
+      "cafeId": 8,
       "rating": 5,
       "id": 8
     },
     {
-      "cafeId": 2,
-      "rating": 5,
+      "cafeId": 9,
+      "rating": 2,
       "id": 9
     },
     {
-      "cafeId": 2,
+      "cafeId": 10,
       "rating": 5,
       "id": 10
     },
     {
-      "cafeId": 5,
-      "rating": 3,
+      "cafeId": 11,
+      "rating": 4,
       "id": 11
     },
     {
-      "cafeId": 6,
-      "rating": 4,
+      "cafeId": 12,
+      "rating": 5,
       "id": 12
-    },
-    {
-      "cafeId": 1,
-      "rating": 3,
-      "id": 13
-    },
-    {
-      "cafeId": 1,
-      "rating": 2,
-      "id": 14
-    },
-    {
-      "cafeId": 1,
-      "rating": 1,
-      "id": 15
-    },
-    {
-      "cafeId": 1,
-      "rating": 5,
-      "id": 16
-    },
-    {
-      "cafeId": 1,
-      "rating": 5,
-      "id": 17
     }
   ],
   "ContactInfo": [
