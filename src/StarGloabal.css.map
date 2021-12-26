@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,eAAe;CAC7B;;AACD,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,SAAS;CACjB",
+    "sources": [
+        "StarGloabal.scss"
+    ],
+    "names": [],
+    "file": "StarGloabal.css"
+}

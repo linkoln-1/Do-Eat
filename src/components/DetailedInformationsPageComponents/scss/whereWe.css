@@ -1,0 +1,64 @@
+.where__we {
+  width: 85%;
+  margin: 20px 0 0 10px;
+  font-size: 18px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.where__we .ClockMap {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.where__we .addresses {
+  margin-bottom: 10px;
+}
+
+.where__we .addresses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.where__we .addresses i {
+  color: #a0241b;
+  padding: 5px 5px 0 0;
+}
+
+.where__we .addresses span {
+  margin-left: 5px;
+}
+
+.where__we .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+.where__we .rating div {
+  margin-left: 10px;
+}
+
+.where__we .rating div p {
+  color: white;
+}
+
+.where__we .rating .Star {
+  color: #fdc634;
+}
+/*# sourceMappingURL=whereWe.css.map */

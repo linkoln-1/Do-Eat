@@ -142,11 +142,10 @@
     },
     {
       "id": 12,
-      "cafeId":  12,
+      "cafeId": 12,
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/45/d5/ee/caption.jpg",
       "title": "PARIS"
     }
-
   ],
   "addresses": [
     {
@@ -233,13 +232,13 @@
       "id": 10
     },
     {
-      "cafeId": 5,
-      "rating": 3,
+      "cafeId": 2,
+      "rating": 4,
       "id": 11
     },
     {
-      "cafeId": 6,
-      "rating": 4,
+      "cafeId": 2,
+      "rating": 3,
       "id": 12
     },
     {
@@ -248,24 +247,111 @@
       "id": 13
     },
     {
-      "cafeId": 1,
-      "rating": 2,
+      "cafeId": 5,
+      "rating": 3,
       "id": 14
     },
     {
-      "cafeId": 1,
-      "rating": 1,
+      "cafeId": 6,
+      "rating": 4,
       "id": 15
     },
     {
       "cafeId": 1,
-      "rating": 5,
+      "rating": 4,
       "id": 16
     },
     {
       "cafeId": 1,
-      "rating": 5,
+      "rating": 4,
       "id": 17
+    },
+    {
+      "cafeId": 3,
+      "rating": 4,
+      "id": 18
+    },
+    {
+      "cafeId": 3,
+      "rating": 5,
+      "id": 19
+    },
+    {
+      "cafeId": 1,
+      "rating": 3,
+      "id": 20
+    },
+    {
+      "cafeId": 1,
+      "rating": 2,
+      "id": 21
+    },
+    {
+      "cafeId": 2,
+      "rating": 3,
+      "id": 22
+    },
+    {
+      "cafeId": 2,
+      "rating": 4,
+      "id": 23
+    },
+    {
+      "cafeId": 1,
+      "rating": 1,
+      "id": 24
+    },
+    {
+      "cafeId": 1,
+      "rating": 4,
+      "id": 25
+    },
+    {
+      "cafeId": 1,
+      "rating": 2,
+      "id": 26
+    },
+    {
+      "cafeId": 12,
+      "rating": 4,
+      "id": 27
+    },
+    {
+      "cafeId": 7,
+      "rating": 1,
+      "id": 28
+    },
+    {
+      "rating": 4,
+      "id": 29
+    },
+    {
+      "rating": 2,
+      "id": 30
+    },
+    {
+      "rating": 5,
+      "id": 31
+    },
+    {
+      "cafeId": 11,
+      "rating": 4,
+      "id": 32
+    },
+    {
+      "cafeId": 9,
+      "rating": 4,
+      "id": 33
+    },
+    {
+      "cafeId": 8,
+      "rating": 1,
+      "id": 34
+    },
+    {
+      "cafeId": 10,
+      "rating": 1,
+      "id": 35
     }
   ],
   "ContactInfo": [
@@ -310,6 +396,49 @@
       "LockAddresses": "Грозный, пр. Ахмата Кадырова, 40",
       "WorkingHours": " 9-00 до 20-00",
       "phone": "+7 928 894 90 90"
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Халид Алиев",
+      "login": "s7600180@gmail.com",
+      "password": "alievhalid95",
+      "address": "Чеченская Республика г Шали",
+      "id": 4
+    },
+    {
+      "name": "sadasd",
+      "login": "sadad@gmail.com",
+      "password": "asdasda",
+      "address": "г Шали Чеченская Респ Шалинский р-н",
+      "id": 5
+    },
+    {
+      "name": "asdasd",
+      "login": "sadasd@gmail.com",
+      "password": "asdad",
+      "address": "г Шали Чеченская Респ Шалинский р-н",
+      "id": 6
+    },
+    {
+      "name": "халид алиев",
+      "login": "s7600180@gmail.com",
+      "password": "asdadsada",
+      "address": "sadasdasdasd",
+      "id": 7
+    },
+    {
+      "name": "халид алиев",
+      "login": "s7600180@gmail.com",
+      "password": "asdadsada",
+      "address": "sadasdasdasd",
+      "id": 8
     }
   ]
 }

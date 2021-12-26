@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./cards.module.scss";
-import { NavLink } from "react-router-dom";
 import Rating from "react-rating";
+import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { ToPutRatinges } from "../../../redux/RatingReducer/ratingAction";
 function Cards({ restaurant }) {
@@ -21,6 +21,7 @@ function Cards({ restaurant }) {
   const Click = (rating) => {
     dispatch(ToPutRatinges(id, rating));
   };
+  
   return (
     <div className={styles.cards}>
       <div className={styles.card}>

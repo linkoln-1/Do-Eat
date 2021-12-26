@@ -6,6 +6,7 @@ import rating from "./RatingReducer/ratingReducer";
 import addressess from "./AddressReducer/AddressReducer";
 import { ImageRestaurant } from "./ImageRestaurantReducer/ImageRestaurant";
 import ContactInfo from "./ContactInformationReducer/ContactInfoReducer";
+import reducer from "./registration/reducer"
 
 const logger = createLogger({
   diff: true,
@@ -14,10 +15,12 @@ const logger = createLogger({
 
 const rootReduce = combineReducers({
   restaurants: restaurant,
+
   rating: rating,
   addresses: addressess,
   ImageRestaurants: ImageRestaurant,
-  ContactInformation: ContactInfo
+  ContactInformation: ContactInfo,
+  registration: reducer
 });
 
 const store = createStore(rootReduce, applyMiddleware(thunk, logger));
