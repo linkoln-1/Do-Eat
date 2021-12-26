@@ -1,0 +1,64 @@
+.main {
+  height: 700px;
+  background-image: url("https://mota.ru/upload/wallpapers/source/2016/11/21/11/05/50960/mota.ru_2016112162.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .main-text {
+  max-width: 500px;
+  color: #fff;
+  font-size: 74px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.255em;
+  padding-left: 15px;
+  padding-top: 120px;
+}
+
+.sort {
+  width: 1070px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.sort span {
+  margin-right: 10px;
+}
+
+.sort input {
+  width: 180px;
+  height: 22px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.sort select {
+  color: grey;
+  width: 150px;
+  height: 22px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+body {
+  background-color: #3a3a3a;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=main.module.css.map */

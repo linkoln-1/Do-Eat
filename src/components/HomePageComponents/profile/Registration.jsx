@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styles from "./profile.module.scss";
-import { NavLink } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import {RegistrationUser} from "../../../redux/registration/actions"
+import {useNavigate} from "react-router"
 function Registration() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [value, setValue] = useState("");
-  const [city, setCity] = useState("");
+  const [address, setAddress] = useState("");
   const [emailDirty, setEmailDirty] = useState(false);
   const [passwordDirty, setPasswordDirty] = useState(false);
   const [emailError, setEmailError] = useState("эмайл не может быть пустым");
@@ -13,6 +15,7 @@ function Registration() {
   const [passwordError, setPasswordError] = useState(
     "пароль не может быть пустым"
   );
+  const dispatch = useDispatch();
   const handler = (e) => {
     switch (e.target.name) {
       case "email":
@@ -52,18 +55,17 @@ function Registration() {
       setPasswordError("");
     }
   };
-  const handleAdd = () => {
-    localStorage.setItem("email", email);
-    localStorage.setItem("password", password);
-    localStorage.setItem("name", value);
-    localStorage.setItem("city", city);
-  };
   const handleName = (e) => {
     setValue(e.target.value);
   };
   const handleCity = (e) => {
-    setCity(e.target.value);
+    setAddress(e.target.value);
   };
+  const navigate = useNavigate()
+
+  const handleAdd = () => {
+    dispatch(RegistrationUser(email, password, address, value,))
+  }
   return (
     <div className={styles.registration}>
       <h1>Регистрация</h1>
@@ -92,14 +94,12 @@ function Registration() {
       <input
         type="city"
         placeholder="Город"
-        value={city}
+        value={address}
         onChange={handleCity}
       />
-      <a href="/">
         <div className={styles.send} onClick={handleAdd} disabled={!formValid}>
           Регистрация
         </div>
-      </a>
       <div className={styles.pass}></div>
     </div>
   );

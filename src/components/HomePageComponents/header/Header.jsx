@@ -16,16 +16,10 @@ function Header() {
         <div>
           <i className="fa fa-shopping-basket" aria-hidden="true" />
         </div>
-        <NavLink to="/registration">
-          <div>
-            {name ? (
-              <div className={styles.profile}>{name[0]}</div>
-            ) : (
+          <div>         
               <i className="fa fa-user-circle" aria-hidden="true" />
-            )}
-          </div>
-        </NavLink>
       </div>
+    </div>
     </div>
   );
 }

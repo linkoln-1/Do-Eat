@@ -1,0 +1,40 @@
+.ContactInformationForClient {
+  width: 290px;
+  border-left: 5px solid grey;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 18px;
+  color: lightgray;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 10px;
+}
+
+.ContactInformationForClient .contact_info_title {
+  font-size: 21px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ContactInformationForClient .contact__information {
+  margin-top: 10px;
+}
+
+.ContactInformationForClient .contact__information__address div,
+.ContactInformationForClient .contact__information__workHour div,
+.ContactInformationForClient .contact__information__ourNumber div {
+  font-size: 17px;
+  padding: 10px;
+  font-weight: lighter;
+  cursor: text;
+}
+
+.ContactInformationForClient .contact__information__address span,
+.ContactInformationForClient .contact__information__workHour span,
+.ContactInformationForClient .contact__information__ourNumber span {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  cursor: text;
+}
+/*# sourceMappingURL=ContactInformationForClient.css.map */

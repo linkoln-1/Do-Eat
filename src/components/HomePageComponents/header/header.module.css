@@ -1,0 +1,58 @@
+.header {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+  background-color: #3a3a3a;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.header i {
+  color: white;
+  font-size: 60px;
+}
+
+.header .options {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: solid 1px grey;
+  background-color: #787878;
+  line-height: 60px;
+  padding-bottom: 3px;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+/*# sourceMappingURL=header.module.css.map */

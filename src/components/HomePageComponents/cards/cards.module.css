@@ -1,0 +1,74 @@
+.cards {
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 1px 28px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 28px 7px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.cards .card img {
+  width: 255px;
+  height: 175px;
+  border-radius: 10px;
+}
+
+.cards .card a {
+  text-decoration: none;
+}
+
+.cards .card .NavLink-Style div {
+  color: white;
+}
+
+.cards .card .NavLink-Style div:hover {
+  color: #969696;
+}
+
+.cards .card .card-name {
+  width: 500px;
+  font-size: 44px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.cards .card .card-address {
+  width: 100%;
+  margin-left: 10px;
+  color: #e2dddd;
+  font-size: 18px;
+}
+
+.cards .card .falsch {
+  margin: 50px 0 0 0;
+}
+
+.cards .card .card-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+.cards .card .card-rating div {
+  margin-left: 10px;
+}
+
+.cards .card .card-rating div p {
+  color: white;
+}
+
+.cards .card .card-rating .Star {
+  color: #fdc634;
+}
+/*# sourceMappingURL=cards.module.css.map */

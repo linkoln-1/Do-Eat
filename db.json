@@ -396,6 +396,49 @@
       "LockAddresses": "Грозный, пр. Ахмата Кадырова, 40",
       "WorkingHours": " 9-00 до 20-00",
       "phone": "+7 928 894 90 90"
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Халид Алиев",
+      "login": "s7600180@gmail.com",
+      "password": "alievhalid95",
+      "address": "Чеченская Республика г Шали",
+      "id": 4
+    },
+    {
+      "name": "sadasd",
+      "login": "sadad@gmail.com",
+      "password": "asdasda",
+      "address": "г Шали Чеченская Респ Шалинский р-н",
+      "id": 5
+    },
+    {
+      "name": "asdasd",
+      "login": "sadasd@gmail.com",
+      "password": "asdad",
+      "address": "г Шали Чеченская Респ Шалинский р-н",
+      "id": 6
+    },
+    {
+      "name": "халид алиев",
+      "login": "s7600180@gmail.com",
+      "password": "asdadsada",
+      "address": "sadasdasdasd",
+      "id": 7
+    },
+    {
+      "name": "халид алиев",
+      "login": "s7600180@gmail.com",
+      "password": "asdadsada",
+      "address": "sadasdasdasd",
+      "id": 8
     }
   ]
 }
